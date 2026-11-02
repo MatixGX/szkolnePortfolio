@@ -528,6 +528,10 @@ p.contact-element {
 }
 
 @media (max-width: 1000px) {
+    #about {
+        flex-direction: column;
+    }
+
     #hero-main {
         flex-direction: column-reverse;
     }
@@ -538,6 +542,10 @@ p.contact-element {
 
     .mobile-hidden {
         display: none;
+    }
+
+    .about-me {
+        flex-direction: column;
     }
 
     img#hero {
