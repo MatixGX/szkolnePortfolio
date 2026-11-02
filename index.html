@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <span id="logo-text">WYNSZER</span>
+            <div class="nav-div mobile-hidden">
+                <a href="#title" class="nav-link nav-link-active">Główna</a>
+                <a href="#about" class="nav-link">O mnie</a>
+                <a href="#skills" class="nav-link">Umiejętności</a>
+                <a href="#projects" class="nav-link">Projekty</a>
+                <a href="#expieriance" class="nav-link">Doświadczenie</a>
+                <a href="#contact" class="nav-link nav-link-button">Kontakt</a>
+            </div>
+
+            <div class="mobile-only">
+                <div id="dropdown" class="nav-div mobile-only">
+                    <a href="#title" class="nav-link nav-link-active">Główna</a>
+                    <a href="#about" class="nav-link">O mnie</a>
+                    <a href="#skills" class="nav-link">Umiejętności</a>
+                    <a href="#projects" class="nav-link">Projekty</a>
+                    <a href="#expieriance" class="nav-link">Doświadczenie</a>
+                    <a href="#contact" class="nav-link nav-link-button">Kontakt</a>
+                </div>
+                <button id="dropdown-btn" class="burger-menu"><img src="icons/burger-menu.svg" alt="burger-menu"></button>
+            </div>
+        </nav>
+        <header id="title">
+            
+            <div class="center" id="hero-main">
+                <div class="flex-col mobile-center">
+                    <div class="container small-hero">
+                        <small>Siema, jestem</small>
+                        <div class="orange-line"></div>
+                    </div>
+                    <div class="container h1-hero">
+                        
+                        <h1>Wy<span class="text-main">nszer</span></h1>
+                        <p class="desc">Montaż filmów, grafika, okazjonalnie programowanie.</p>
+                        <p class="desc desc-long">Montuje filmy na YouTube, towrze miniaturki i tworzę projekty w językach takich jak JavaScript czy Python.</p>
+                    </div>
+                    
+                    <div class="flex-row">
+                        <a href="#projects" class="btn btn-main">Zobacz Projekty →</a>
+                        <a href="#skills" class="btn btn-secondary">Umiejętności</a>
+                    </div>
+                </div>
+                <img id="hero" src="hero.jpg" alt="logo">
+                
+            </div>
+        </header>
+        <main>
+            <section id="about">
+                <img src="icons/aboutme.svg" alt="about me icon" width="200">
+                <div id="about-me" class="container center">
+                    <div class="container self-left">
+                        <h2 class="heading">O mnie</h2>
+                        <div class="orange-line"></div>
+                    </div>
+                    <p class="desc desc-long">Lubię montować filmy w Premiere Pro i After Effects. Robię te grafikę w Photoshopie. Czasem gdy mam jakiś ciekawszy pomysł to programuję.</p>
+                    <div class="container flex-row about-me">
+                        <p class="point"><img class="icon" src="icons/creative.svg" width="50" alt="drawing icon">Kreatywność</p>
+                        <p class="point"><img class="icon" src="icons/problem.svg" height="50" alt="exclamation mark">Rozwiązywanie problemów</p>
+                        <p class="point"><img class="icon" src="icons/learn.svg" width="50" alt="book icon">Zawsze się uczę</p>
+                    </div>
+                </div>
+                
+            </section>
+
+            <hr>
+
+            <section id="skills">
+                
+
+                <div class="container self-left">
+                    <h2 class="heading">Umiejętności</h2>
+                    <div class="orange-line"></div>
+                </div>
+
+                <div class="flex-row skills">
+                    <div class="container skill-container">
+                        <img src="icons/premierepro.webp" alt="Adobe Premiere Pro" class="skill-icon">
+                        <span>Premiere Pro</span>
+                    </div>
+
+                    <div class="container skill-container">
+                        <img src="icons/ae.webp" alt="Adobe After Effects" class="skill-icon">
+                        <span>After Effects</span>
+                    </div>
+
+                    <div class="container skill-container">
+                        <img src="icons/ps.webp" alt="Adobe Photoshop" class="skill-icon">
+                        <span>Photoshop</span>
+                    </div>
+
+                    <div class="container skill-container">
+                        <img src="icons/py.webp" alt="Python" class="skill-icon">
+                        <span>Python</span>
+                    </div>
+
+                    
+
+                    <div class="container skill-container">
+                        <img src="icons/nextjs.png" alt="next-js" class="skill-icon">
+                        <span>Next JS</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="projects">
+                <div class="container self-left">
+                    <h2 class="heading">Wybrane Projekty</h2>
+                    <div class="orange-line"></div>
+                </div>
+
+                <div class="flex-row projects">
+                    <div class="container project-container">
+                        <img src="icons/instacord.jpg" alt="Instagram + discord logo" class="project-icon">
+                        <div class="container project-inner">
+                            <h4 class="project-title">Instacord</h4>
+                            <p class="project-desc">Instagram na Discord. Serwer discord działający jak instagram, wszystko napisane w Discord.js + MongoDB</p>
+                            <a href="https://www.youtube.com/watch?v=mO8392FMjT0"><button class="btn btn-main">Zobacz film →</button></a>
+                        </div>
+                            
+                    </div>
+
+                    
+                    <div class="container project-container">
+                        <img src="icons/iceberg_scamow.jpg" alt="Miniaturka" class="project-icon">
+                        <div class="container project-inner">
+                            <h4 class="project-title">Iceberg Scamów Discord</h4>
+                            <p class="project-desc">Jeden z lepiej zmontowanych filmów jakie udało mi się zrobić.</p>
+                            <a href="https://www.youtube.com/watch?v=B6EQLpS01OY"><button class="btn btn-main">Zobacz film →</button></a>
+                        </div>
+                            
+                    </div>
+
+                    <div class="container project-container">
+                        <img src="icons/poziomy.jpg" alt="Miniaturka" class="project-icon">
+                        <div class="container project-inner">
+                            <h4 class="project-title">5 Poziomów Anoimowości</h4>
+                            <p class="project-desc">Film o anonimowosci. Od przecietnego uzytkownika po poziom hackera.</p>
+                            <a href="https://www.youtube.com/watch?v=A_P8QHIedtg"><button class="btn btn-main project-btn">Zobacz film →</button></a>
+                        </div>
+                            
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section id="expieriance">
+                <div class="container self-left">
+                    <h2 class="heading">Doświadczenie</h2>
+                    <div class="orange-line"></div>
+                </div>
+
+                <div class="container year-container">
+                    <div class="year-element">
+                        <div class="year-icon"><img src="/icons/work.svg" alt="work suitcase icon"></div>
+                        <div class="flex-col">
+                            <h4 class="year-year">2024 - Teraz</h4>
+                            <h3 class="year-title">Tytul 1<span class="year-line"></span><span class="year-dot"></span></h3>
+                            <p class="year-label">Naglowek 1</p>
+                            <p class="year-desc">Opis Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="year-element">
+                        <div class="year-icon"><img src="/icons/work.svg" alt="work suitcase icon"></div>
+                        <div class="flex-col">
+                            <h4 class="year-year">2020 - 2024</h4>
+                            <h3 class="year-title">Tytul 2<span class="year-line"></span><span class="year-dot"></span></h3>
+                            <p class="year-label">Naglowek 2</p>
+                            <p class="year-desc">Opis Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="year-element">
+                        <div class="year-icon"><img src="/icons/work.svg" alt="work suitcase icon"></div>
+                        <div class="flex-col">
+                            <h4 class="year-year">2016-2020</h4>
+                            <h3 class="year-title">Tytul 3<span class="year-line"></span><span class="year-dot"></span></h3>
+                            <p class="year-label">Naglowek 3</p>
+                            <p class="year-desc">Opis Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+
+                    </div>
+                </div>                
+            </section>
+
+            <section id="process">
+                <div class="container self-left">
+                    <h2 class="heading">Mój Proces</h2>
+                    <div class="orange-line"></div>
+                </div>
+                
+                <div class="processes">
+
+                    <div class="container process-container">
+                        <div class="process-icon">
+                            <img src="icons/work.svg" alt="wrok suitcase icon">
+                        </div>
+                        <div class="process-texts">
+                            <h4 class="year-year">01</h4>
+                            <h3 class="process-title">Discover</h3>
+                            <p class="year-desc">Lorem ipsum dolor sit amet, consectetur.</p>
+
+                        </div>
+                    </div>
+
+                    <span class="process-line"></span>
+
+                    <div class="container process-container">
+                        <div class="process-icon">
+                            <img src="icons/work.svg" alt="wrok suitcase icon">
+                        </div>
+                        <div class="process-texts">
+                            <h4 class="year-year">02</h4>
+                            <h3 class="process-title">Design</h3>
+                            <p class="year-desc">Lorem ipsum dolor sit amet, consectetur.</p>
+
+                        </div>
+                    </div>
+
+                    <span class="process-line"></span>
+
+                    <div class="container process-container">
+                        <div class="process-icon">
+                            <img src="icons/work.svg" alt="wrok suitcase icon">
+                        </div>
+                        <div class="process-texts">
+                            <h4 class="year-year">03</h4>
+                            <h3 class="process-title">Develop</h3>
+                            <p class="year-desc">Lorem ipsum dolor sit amet, consectetur.</p>
+
+                        </div>
+                    </div>
+
+                    <span class="process-line"></span>
+
+                    <div class="container process-container">
+                        <div class="process-icon">
+                            <img src="icons/work.svg" alt="wrok suitcase icon">
+                        </div>
+                        <div class="process-texts">
+                            <h4 class="year-year">04</h4>
+                            <h3 class="process-title">Deploy</h3>
+                            <p class="year-desc">Lorem ipsum dolor sit amet, consectetur.</p>
+
+                        </div>
+                    </div>
+
+                    <span class="process-line"></span>
+
+                    <div class="container process-container">
+                        <div class="process-icon">
+                            <img src="icons/work.svg" alt="wrok suitcase icon">
+                        </div>
+                        <div class="process-texts">
+                            <h4 class="year-year">05</h4>
+                            <h3 class="process-title">Improve</h3>
+                            <p class="year-desc">Lorem ipsum dolor sit amet, consectetur.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <div class="container footer-heading">
+                    <h2 class="heading">Zbudujmy coś <span class="orange-text">razem!</span></h2>
+                    <div class="orange-line"></div>
+                </div>
+
+                <div class="container">
+                    <p class="contact-element">email@example.com</p>
+                    <p class="contact-element">+67 123 123 123</p>
+                    <p class="contact-element">Warsaw, Poland</p>
+                </div>
+
+                <div class="container contact-buttons">
+                    <h4>Połączmy siły</h4>
+                    <div class="flex-row">
+                        <a class="contact-link-btn" href="#"><img src="/icons/github.webp" alt="github"></a>
+                        <a class="contact-link-btn" href="#"><img src="/icons/discord.svg" alt="discord"></a>
+                        <a class="contact-link-btn" href="#"><img src="/icons/linkedin.webp" alt="linkedin"></a>
+                        <a class="contact-link-btn" href="#"><img src="/icons/instagram.webp" alt="instagram"></a>
+                    </div>
+                </div>
+            </section>
+            <p class="copyright">© 2026 Wynszer, Wszystkie prawa zastrzeżone</p>
+        </footer>
+    
+    </body>
+    <script>
+        const navBtn = document.getElementById("dropdown-btn");
+        let menuOpen = false;
+
+        navBtn.addEventListener("click", () => {
+            menuOpen = !menuOpen;
+            document.getElementById("dropdown").style.display = menuOpen
+                ? "flex"
+                : "none";
+        });
+    </script>
+</html>
